@@ -15,6 +15,6 @@ For different shells
 
 | Shell      | Command to activate virtual environment |
 |------------|-----------------------------------------|
-| bash/zsh   | source <venv>/bin/activate              |
-| cmd.exe    | <venv>\Scripts\activate.bat             |
-| PowerShell | <venv>\Scripts\Activate.ps1             |
+| bash/zsh   | `source <venv>/bin/activate`              |
+| cmd.exe    | `<venv>\Scripts\activate.bat`            |
+| PowerShell | `<venv>\Scripts\Activate.ps1`             |
