@@ -2,6 +2,8 @@
 name = "project-template"
 description = "Starting off point for Python projects"
 version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.8"
 authors = [
     { name = "Tejas", email = "tejasanilshah@gmail.com" }
 ]
@@ -11,8 +13,13 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-    "pre-commit"
+    "pre-commit",
+    "pytest"
 ]
 
 [project.scripts]
 main = "main:main"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
