@@ -17,6 +17,5 @@ pip-delete-this-directory.txt
 .pytest_cache/
 
 # Environments
-.venv
 venv/
 venv.bak/
