@@ -20,11 +20,6 @@ repos:
       - id: isort
         args: [ --settings-path=pyproject.toml ]
 
-  - repo: https://github.com/markdownlint/markdownlint
-    rev: v0.12.0
-    hooks:
-      - id: markdownlint
-
   - repo: https://github.com/hadolint/hadolint
     rev: v2.12.0
     hooks:
